@@ -1,6 +1,6 @@
 {
     "name": "pandora-npm-test-publish",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Javascript Crypto Library",
     "keywords": [],
     "homepage": "https://github.com/kingller/npm-test-publish",
@@ -21,8 +21,8 @@
         "package.json",
         "README.md"
     ],
-    "main": "index.js",
-    "types": "index.d.ts",
+    "main": "build/index.js",
+    "types": "build/index.d.ts",
     "scripts": {
         "build": "npm run clean && tsc --build tsconfig.json",
         "clean": "rimraf ./build",
