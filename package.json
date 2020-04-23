@@ -1,0 +1,36 @@
+{
+    "name": "npm-test-publish",
+    "version": "1.0.0",
+    "description": "Javascript Crypto Library",
+    "keywords": [],
+    "homepage": "https://github.com/kingller/npm-test-publish",
+    "bugs": {
+        "url": "https://github.com/kingller/npm-test-publish/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kingller/npm-test-publish.git"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Kingller Tang",
+        "url": "https://github.com/kingller"
+    },
+    "files": [
+        "build/*",
+        "package.json",
+        "README.md"
+    ],
+    "main": "index.js",
+    "types": "index.d.ts",
+    "scripts": {
+        "build": "npm run clean && tsc --build tsconfig.json",
+        "clean": "rimraf ./build",
+        "prepublishOnly": "npm run build"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "rimraf": "^3.0.2",
+        "typescript": "^3.7.3"
+    }
+}
