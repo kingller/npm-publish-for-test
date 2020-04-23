@@ -1,15 +1,15 @@
 {
-    "name": "npm-test-publish",
+    "name": "@kingller/npm-test-publish",
     "version": "1.0.0",
     "description": "Javascript Crypto Library",
     "keywords": [],
-    "homepage": "https://github.com/kingller/npm-publish-for-test",
+    "homepage": "https://github.com/kingller/npm-test-publish",
     "bugs": {
-        "url": "https://github.com/kingller/npm-publish-for-test/issues"
+        "url": "https://github.com/kingller/npm-test-publish/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/kingller/npm-publish-for-test.git"
+        "url": "https://github.com/kingller/npm-test-publish.git"
     },
     "license": "MIT",
     "author": {
