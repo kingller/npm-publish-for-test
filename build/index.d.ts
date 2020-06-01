@@ -1,1 +1,1 @@
-export default function test(): void;
+export default function test(): string[];

@@ -1,6 +1,6 @@
 {
     "name": "pandora-npm-test-publish",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "description": "Javascript Crypto Library",
     "keywords": [],
     "homepage": "https://github.com/kingller/npm-test-publish",
@@ -28,7 +28,10 @@
         "clean": "rimraf ./build",
         "prepublishOnly": "npm run build"
     },
-    "dependencies": {},
+    "dependencies": {
+        "@types/lodash": "^4.14.154",
+        "lodash": "^4.17.15"
+    },
     "devDependencies": {
         "rimraf": "^3.0.2",
         "typescript": "^3.7.3"
